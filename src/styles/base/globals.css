@@ -1,0 +1,42 @@
+
+html{
+    font-size: 62.5%;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+    margin:0;
+    padding: 0;
+}
+
+[class*="__container"] {
+    width: 95%;
+    max-width: 1300px;
+    margin:0 auto;
+    @media (min-width:$macbook_air){
+        max-width: 1900px;
+    }
+    @media (min-width:$macbook_pro_13){
+        max-width: 2800px;
+    }
+}
+
+img, picture  {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: var(--neutral-2);
+}
+

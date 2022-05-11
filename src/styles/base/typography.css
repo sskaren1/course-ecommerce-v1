@@ -1,0 +1,226 @@
+body{
+    font-family: var(--secondary-font);
+    font-weight: var(--regular);
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--main-font);
+    font-weight: var(--bold);
+    text-align: center;    
+}
+
+h1 {
+    font-size: 2rem;
+}
+@media (min-width: 480px){
+    h1{
+        font-size: 3rem;
+    }
+}
+@media (min-width: 720px){
+    h1{
+        font-size: 3.5rem;
+    }
+}
+@media (min-width: 1200px){
+    h1{
+        font-size: 4rem;
+    }
+}
+
+h2 {
+    font-size: 2.6rem;
+}
+@media (min-width: 480px){
+    h2{
+        font-size: 2.8rem;
+    }
+}
+@media (min-width: 720px){
+    h2{
+        font-size: 3.2rem;
+    }
+}
+@media (min-width: 1200px){
+    h2{
+        font-size: 3.6rem;
+    }
+}
+
+h3 {
+    font-size: 2.2rem;
+}
+@media (min-width: 480px){
+    h3{
+        font-size: 2.3rem;
+    }
+}
+@media (min-width: 720px){
+    h3{
+        font-size: 2.4rem;
+    }
+}
+@media (min-width: 1200px){
+    h3{
+        font-size: 2.5rem;
+    }
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+@media (min-width: 480px){
+    h4{
+        font-size: 1.7rem;
+    }
+}
+@media (min-width: 720px){
+    h4{
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 1200px){
+    h4{
+        font-size: 1.9rem;
+    }
+}
+
+p, span {
+    font-family: var(--secondary-font);
+    font-weight: var(--regular);
+    line-height: 2.5rem;
+    font-size: 1.6rem;
+    
+}
+@media (min-width: 1200px){
+    p, span{
+        font-size: 1.7rem;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: var(--link-font);
+    font-weight: var(--regular); 
+    color: var(--neutral-2); 
+    text-align: justify;
+    transition-property: color;
+    transition-duration: .5s;
+
+    font-size: 1.9rem;
+}
+@media (min-width: 480px){
+    li{
+        font-size: 2rem;
+    }
+}
+@media (min-width: 720px){
+    li{
+        font-size: 2.1rem;
+    }
+}
+@media (min-width: 1200px){
+    li{
+        font-size: 2.2rem;
+    }
+}
+
+a {
+    font-family: var(--link-font);
+    font-weight: var(--regular); 
+    color: var(--neutral-2);    
+    text-align: center;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: .5s;
+    cursor: pointer;  
+    font-size: 1.5rem;
+}
+a:hover {
+    color: var(--color-3);
+} 
+@media (min-width: 480px){
+    a{
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 720px){
+    a{
+        font-size: 1.7rem;
+    }
+}
+@media (min-width: 1200px){
+    a{
+        font-size: 1.8rem;
+    }
+}
+
+i {
+    font-family: var(--link-font);
+    font-weight: var(--regular); 
+    color: var(--neutral-2);    
+    text-align: center;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: .5s;
+    cursor: pointer;  
+    font-size: 1.5rem;
+}
+@media (min-width: 480px){
+    i{
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 720px){
+    i{
+        font-size: 1.7rem;
+    }
+}
+@media (min-width: 1200px){
+    i{
+        font-size: 1.8rem;
+    }
+}
+
+/* Fontawesome */
+a svg, button svg {
+    color: var(--neutral-2);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: .5s;
+    cursor: pointer;   
+    
+    font-size: 2rem;
+}
+@media (min-width: 480px){
+    a svg, button svg {
+        font-size: 2.1rem;
+    }
+}
+@media (min-width: 720px){
+    a svg, button svg {
+        font-size: 2.2rem;
+    }
+}
+@media (min-width: 1200px){
+    a svg, button svg {
+        font-size: 2.3rem;
+    }
+}
+
+tr th{
+    font-family: var(--secondary-font);
+    color: var(--neutral-1);
+}
+tr td{
+    font-family: var(--secondary-font);
+    color: var(--color-1);
+}
+
+button.btn{
+    font-family: var(--secondary-font);
+    font-size: 1.8rem;
+}

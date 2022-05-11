@@ -1,0 +1,53 @@
+#encabezado {
+  margin: 3rem 0;
+}
+#lista-cursos .row {
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 2rem;
+
+}
+.card {
+  min-width: 25rem;
+  max-width: 30rem;
+  justify-content: space-between;
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  background: var(--neutral-2);
+}
+@media (min-width: 550px) {
+  .card {
+    text-align: left;
+  }
+}
+.info-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.info-card p,
+.info-card h4 {
+  margin: 0 auto 1rem;
+  text-align: center;
+}
+.info-card h4 {
+  font-weight: 400;
+}
+.image-stars{
+  margin: auto;
+}
+.info-card .precio {
+  text-decoration: line-through;
+  font-size: 1.8rem;
+}
+.info-card .precio-span{
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.agregar-carrito {
+  margin: 1rem;
+  border-radius: 0.8rem;
+}

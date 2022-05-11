@@ -1,0 +1,46 @@
+.barra {
+  padding: 2rem 0;
+  background: var(--color-3); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    var(--color-3) 0%,
+    var(--color-4) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    var(--color-3) 0%,
+    var(--color-4) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    var(--color-3) 0%,
+    var(--color-4) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(118, 30, 81)', endColorstr='rgb(215, 72, 81)',GradientType=1 ); /* IE6-9 */
+}
+.barra p {
+  margin: 0;
+  color: var(--neutral-2);
+}
+.icono {
+  background-repeat: no-repeat;
+  background-position: 10% center;
+  background-size: 3rem;
+  padding-left: 6rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .icono {
+    margin-bottom: 0;
+  }
+}
+.icono1 {
+  background-image: url(/assets/image/icono1.png);
+}
+.icono2 {
+  background-image: url(/assets/image/icono2.png);
+}
+.icono3 {
+  background-image: url(/assets/image/icono3.png);
+}

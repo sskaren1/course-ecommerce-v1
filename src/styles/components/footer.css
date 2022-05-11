@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 4rem;
+    border-top: 0.1rem solid var(--neutral-3);
+    padding: 2rem 0;   
+    background-color: var(--color-1);
+}
+.follow--footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.follow--footer a i{
+    height: 100%;
+}

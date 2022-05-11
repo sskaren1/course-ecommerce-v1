@@ -1,0 +1,13 @@
+/* --------------------Base-------------------- */
+@import './base/normalize.css';
+@import './base/variables.css';
+@import './base/typography.css';
+@import './base/globals.css';
+
+/* --------------------Home-------------------- */
+@import './components/header.css';
+@import './components/banner.css';
+@import './components/barra-banner.css';
+@import './components/listaCursos.css';
+@import './components/footer.css';
+

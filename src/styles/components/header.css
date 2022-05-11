@@ -26,7 +26,7 @@
   right: 0;
   top: 100%;
   z-index: 1;
-  background-color: var(--neutral-2);
+  background: var(--color-2);
   padding: 2rem;
   min-height: 40rem;
   min-width: 30rem;

@@ -2,19 +2,39 @@
   padding: 2rem 0;
   background: var(--color-2);
   text-align: center;
+  position: static;
 }
 @media (min-width: 750px) {
   .header {
     text-align: left;
   }
 }
-
+.header.fijo {
+  width: 100%;
+  position: fixed;    
+  z-index: 1;
+  top: 0;
+}
+.header .container .row{
+  align-items: center;
+}
+.header .container .row .lista-submenu{
+  margin-bottom: 0!important;
+}
 .header .logo{
   color: var(--color-4);
 }
 
 .submenu {
   position: relative;
+}
+.submenu .icon-cart i{
+  color: var(--neutral-1);
+  font-size: 2rem!important;
+}
+.submenu .icon-cart-full i{
+  color: var(--color-3);
+  font-size: 2.3rem!important;
 }
 
 .submenu #carrito {
@@ -30,6 +50,12 @@
   padding: 2rem;
   min-height: 40rem;
   min-width: 30rem;
+}
+
+.borrar-curso{
+  width: 3rem;
+  height: 3rem;
+  padding: 0;
 }
 
 .vacio {
